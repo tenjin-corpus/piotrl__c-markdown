@@ -9,8 +9,8 @@
 
 #include <stdio.h>
 
-FILE* input;
-FILE * output;
+extern FILE* input;
+extern FILE * output;
 
 static char singletons[] = { '*', '_', '`' };
 static char* conv[] = { "strong", "em", "code" };

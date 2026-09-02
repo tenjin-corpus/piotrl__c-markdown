@@ -4,6 +4,9 @@
 #include "stack.h"
 #include "markdown.h"
 
+FILE* input;
+FILE * output;
+
 int main(int argc, char const *argv[])
 {
     int index;
