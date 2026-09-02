@@ -63,12 +63,12 @@ int main(int argc, char const *argv[])
             }
             else if( c == '#')
             {
-                onHeader(input);
+                onHeader();
                 c = '\n';   // hack: set newline to 1;
             }
             else if( c == '-' )
             {
-                onHR(input);
+                onHR();
             }
             else if( c == '*' )
             {
@@ -86,7 +86,7 @@ int main(int argc, char const *argv[])
         }
         else if( c == '[' )
         {   // start link
-            onURL(input);
+            onURL();
         }
         else if( index != -1 )
         {
