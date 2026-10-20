@@ -9,8 +9,8 @@ FILE * output;
 
 int main(int argc, char const *argv[])
 {
-    int index;
-    char c, is_quote, is_code, newline;
+    int index, c;
+    char is_quote, is_code, newline;
 
         is_quote = is_code = 0; // 0 OR 1
         newline = 1;
